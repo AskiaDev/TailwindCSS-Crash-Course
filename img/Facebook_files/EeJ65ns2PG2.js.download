@@ -1,0 +1,6 @@
+;/*FB_PKG_DELIM*/
+
+__d("CometAdActivityRootQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="5643267092430362"}),null);
+__d("CometAdActivityRootQuery$Parameters",["CometAdActivityRootQuery_facebookRelayOperation"],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:b("CometAdActivityRootQuery_facebookRelayOperation"),metadata:{},name:"CometAdActivityRootQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("CometAdActivityRootEntryPoint.entrypoint",["CometAdActivityRootQuery$Parameters","JSResourceForInteraction"],(function(a,b,c,d,e,f,g){"use strict";a={getPreloadProps:function(){return{queries:{adActivityRootQueryReference:{parameters:b("CometAdActivityRootQuery$Parameters"),variables:{count:20}}}}},root:c("JSResourceForInteraction")("CometAdActivityRoot.react").__setRef("CometAdActivityRootEntryPoint.entrypoint")};g["default"]=a}),98);
+__d("XCometGamingVideoFollowingControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/gaming/following/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);

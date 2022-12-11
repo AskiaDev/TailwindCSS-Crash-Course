@@ -1,0 +1,5 @@
+;/*FB_PKG_DELIM*/
+
+__d("MAWPDeleteMessageForMe.bs",["MAWBackendBridge.bs","MAWJob.bs","Promise","bs_curry","react"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react");function a(a){return h.useMemo(function(){return function(a){c("bs_curry")._1(d("MAWBackendBridge.bs").getProtocolMsgIdByMsgId({msgId:a.messageId}).sendAndReceive).then(function(a){if(a==null)return b("Promise").resolve();else return d("MAWJob.bs").deleteMsgsForMe.waitUntilCompleted([a],{priority:"UI_ACTION"})})}},[])}e=a;g.useHook=e}),98);
+__d("MAWPRevokeMessage.bs",["MAWBackendBridge.bs","MAWJob.bs","Promise","bs_curry","react"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react");function a(a){return h.useMemo(function(){return function(a){c("bs_curry")._1(d("MAWBackendBridge.bs").getProtocolMsgIdByMsgId({msgId:a.messageId}).sendAndReceive).then(function(a){if(a==null)return b("Promise").resolve();else return d("MAWJob.bs").revokeMsgs.waitUntilCompleted([a],{priority:"UI_ACTION"})})}},[])}e=a;g.useHook=e}),98);
+__d("GroupsCometAAV5RemoveMessageUpsellDialogQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="5834215706663306"}),null);
